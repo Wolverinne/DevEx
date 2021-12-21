@@ -1,0 +1,23 @@
+.card{
+    width:100%;
+    margin:auto;
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.title{   
+    font: bold 14px Poppins, sans-serif  ;
+    padding: 4px 8px;
+    
+}
+.content{
+    font:normal 14px Roboto, sans-serif ; 
+    padding: 4px 8px; 
+    margin-bottom:0rem;
+
+}
+.author ,.date{
+    font:12px Roboto,sans-serif;
+    padding:4px 10px 6px 8px ;
+    margin-bottom:0rem;
+}

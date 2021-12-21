@@ -1,0 +1,25 @@
+/* h6{
+     color:var(--blue); 
+} */
+
+.card{
+    width:100%;
+    color:var(--blue);
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.company_logo{
+    padding:5px;
+    border-radius:50%;
+}
+.logo_text{
+    margin-bottom: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family:sans-serif;
+}

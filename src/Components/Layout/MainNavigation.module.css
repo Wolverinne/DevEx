@@ -1,0 +1,64 @@
+
+.nav_header{
+    box-shadow: 5px 0 10px 0 rgb(46 61 73 / 20%);
+    /* position: fixed;
+    background: #1a1a1a; */
+    top: 0;
+    padding: 10px 0;
+    height: 45px;
+    z-index: 999;
+}
+a{
+    color:white;
+}
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+.logo_text{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 500  ;
+    font-size:1.5rem;
+    padding-top:2px;
+    color:var(--green);
+}
+.navbar_logo {
+    height: 40px;
+    width: 40px;   
+}
+.logo_text_blue{
+    color:var(--blue);
+}
+
+.navbtn_1{
+    color:white;
+    border: 2px solid var(--blue);
+    background-color: var(--blue);
+    border-radius:5px;
+    font: 300 13px Poppins,sans-serif;
+    box-shadow: 5px 10px 25px 0 rgb(46 61 73 / 20%);
+}
+.navbtn_2{
+    color:var(--blue);
+    border: 2px solid var(--blue);
+    background-color: var(white);
+    border-radius:5px;
+    font: 300 13px Poppins,sans-serif;
+    box-shadow: 5px 10px 25px 0 rgb(46 61 73 / 20%);
+}
+.dropbtn{
+    color:var(--blue);
+    
+    font-size:28px;
+}
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+@media (max-width: 480px){
+    .navbtn_1{
+        display: none;
+    }
+    .navbtn_2{
+        display:none;
+    }
+
+}

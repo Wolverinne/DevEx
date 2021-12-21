@@ -1,0 +1,11 @@
+.list{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+@media screen and (max-width:768px) {
+    .company_list{
+        padding-top:1rem;
+
+    }
+}

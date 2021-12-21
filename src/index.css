@@ -1,13 +1,72 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
 }
+:root {
+  --green: #40b7ad;
+  --blue: #596fa2;
+}
+a {
+  text-decoration: none;
+}
+/* Feedback Page */
+.feedback_wrapper{
+  margin-top:3rem;
+}
+.feedback_title {
+  background-color: var(--blue);
+  color: #fff;
+  font: 400 30px Poppins, sans-serif;
+}
+.feedback_text {
+  color:var(--blue);
+  font:400 18px Poppins,sans-serif;
+}
+.feedback_img{
+  height:75%;
+  width:70%;
+  display: block;
+  margin: auto;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.control input,
+.control textarea {
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: 2px solid var(--blue);
+  padding: 0.25rem;
+  width: 100%;
+  border-radius:6px;
+}
+.feedback_form_text{
+  font:normal 700 16px roboto,sans-serif;
+  color: var(--blue);
+}
+.actions{
+  text-align: center;
+}
+.actions button{
+  font: inherit;
+  cursor: pointer;
+  background-color: var(--blue);
+  color: white;
+  padding: 0.4rem 1.8rem;
+  border:1px solid var(--blue);
+  font-size:14px;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: bold;
+
+}
+.actions button p{
+  margin-bottom: 0px;
+}
+.icon{
+  padding-left:6px;
+  vertical-align: middle;
 }

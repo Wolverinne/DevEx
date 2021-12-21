@@ -1,0 +1,30 @@
+.footer {
+  height: 150px;
+  background-color: var(--blue);
+}
+.footer_heading{
+    color:white;
+    font: 400 22px Roboto,sans-serif;
+}
+
+
+
+.footer_icon {
+    height: 25px;
+    margin: 8px;
+}
+.footer_text{
+    color:white;
+    font: 400 12px Poppins,sans-serif;
+}
+.footer_policy{
+    font-weight:bold;
+}
+.app_version{
+    color:white;
+    background-color: var(--green);
+    font: 600 12px Roboto,sans-serif;
+    
+    
+
+}

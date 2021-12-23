@@ -13,10 +13,10 @@ function IntroContent() {
             <div className={classes.text}><img src={Pic1} className="d-block w-50 mx-auto" alt="..." /><p className={classes.caption}> Share your Interview Experience with others</p></div>
           </div>
           <div className="carousel-item">
-          <div class="text"><img src={Pic1} className="d-block w-50 mx-auto" alt="..." /><p className={classes.caption}> Request others to share their encouters</p></div>
+          <div className="text"><img src={Pic1} className="d-block w-50 mx-auto" alt="..." /><p className={classes.caption}> Request others to share their encouters</p></div>
           </div>
           <div className="carousel-item">
-          <div class="text"><img src={Pic1} className="d-block w-50 mx-auto" alt="..." /><p className={classes.caption}> Share your experience with others</p></div>
+          <div className="text"><img src={Pic1} className="d-block w-50 mx-auto" alt="..." /><p className={classes.caption}> Share your experience with others</p></div>
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

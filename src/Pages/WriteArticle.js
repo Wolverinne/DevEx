@@ -12,7 +12,7 @@ function WriteArticle(){
         //Converting our array to JSON format using stringify method.
         headers: {
           "Content-Type": "application/json",
-          //metadata for outgoing request to make it clear that it carries Json data.
+          //Content-type is metadata for outgoing request to make it clear that it carries Json data.
         },
       }
       //when promise is fulfiled
